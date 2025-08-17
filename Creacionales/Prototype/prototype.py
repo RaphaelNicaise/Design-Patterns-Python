@@ -2,7 +2,7 @@ import copy
 
 class Prototype:
     def clone(self):
-        return copy.deepcopy(self) 
+        return copy.deepcopy(self) # metodo que retorna una copia completa del objeto completo
     
 class ConcretePrototype(Prototype):
     def __init__(self, name, value):
