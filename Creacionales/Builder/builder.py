@@ -1,7 +1,8 @@
 class Product: # clase que vamos a construir
     def __init__(self): # sin parametros
-        pass  # Atributos definidos durante la construcción
-
+        self.part_a = ""
+        self.part_b = ""
+        self.part_c = ""
 
 class Builder:
     # define la interfaz para constuir paso a paso
@@ -25,7 +26,6 @@ class Builder:
 
 
 class Director:
-
     #Se construyen distintos productos mediante el builder
     
     def __init__(self, builder: 'Builder'):
