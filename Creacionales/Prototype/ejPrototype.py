@@ -1,0 +1,4 @@
+import copy
+
+class PrototypePlayer:
+    
